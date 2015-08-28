@@ -8,7 +8,8 @@ Maintainer: Christoffer Moesgaard Albertsen <cmoe@aqua.dtu.dk>
 Description: R package for analysing Argos data
 License: GPL-2
 LazyData: true
-Imports:
+Imports: 
     TMB,
     mvtnorm
 LinkingTo: TMB, mvtnorm
+Suggests: testthat

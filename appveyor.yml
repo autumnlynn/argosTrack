@@ -51,7 +51,7 @@ test_script:
 on_failure:
   - travis-tool.sh dump_logs
 
-after_success:
+on_success:
   - Rscript -e 'covr::codecov()'
 
 artifacts:
