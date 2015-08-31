@@ -71,7 +71,7 @@ argsdsb <- list(lon = dat$lon,
                 fixcorrection=FALSE,
                 errordistribution="n",
                   movementmodel="dsb",
-                  nStates = round(length(dat$lon)/10),
+                  nStates = round(length(dat$lon)/20),
                 timeunit="hours"
                 )
 fitdtsb <- do.call(argosTrack,argsdsb)
