@@ -15,7 +15,7 @@ argsdsb <- list(lon = dat$lon,
                 movementmodel="dsb",
                 nauticalStates = TRUE,
                 nauticalObs = TRUE,
-                nStates = round(length(dat$lon)/20),
+                nStates = round(length(dat$lon)/30),
                 timeunit="hours"
                 )
 fitdsb <- do.call(argosTrack,argsdsb)
